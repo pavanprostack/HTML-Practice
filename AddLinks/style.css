@@ -1,0 +1,20 @@
+html{
+    font-size:25px ;
+}
+
+body {
+    color:whitesmoke;
+    background-color: #333;
+}
+
+a{
+    color: rgb(57, 201, 201);
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:active, a:visited{
+    color: beige;
+}

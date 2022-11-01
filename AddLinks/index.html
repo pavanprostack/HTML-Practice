@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Head part contains following tags i.e, meta, link, title, script, style -->
+   <!-- Link text Rule #1 : Avoid the full web address to the page -->
 
     <meta charset="UTF-8">
     <meta name="author" content="pavankalyan">
@@ -15,6 +15,18 @@
 </head>
 
 <body>
+    <h1>Hello World!</h1>
+
+<nav>
+    <ul>
+        <li><a href="#first">Schedule</a></li>
+        <li><a href="#second">Planning a Vacation</a></li>
+        <li><a href="#third">Avoid places</a></li>
+    </ul>
+</nav>
+
+<hr>
+<section id="first">
     <h1>I'm Ready to Learn List Types</h1>
     <p>This is my first web page</p>
 
@@ -23,12 +35,13 @@
     <ol>
         <li>... I Will Learn more about Web Dev. </li>
         <li>... I Plan out my Schedule.</li>
-        <li>... I use Resourses from <abbr title="Mozilla Developer Network"> MDN</abbr>.</li>
+        <li>... I use Resourses from <abbr title="Mozilla Developer Network"> <a href="https://mdn.org/">MDN</a> </abbr>.</li>
     </ol>
 
+</section>
 
     <hr>
-
+<section id="second">
     <h1>Iam Also Planning a Vacation</h1>
     <p>My name is <abbr title="Pavankalyan"> PK </abbr></p>
     <p>I've been working hard and <em>really need a gateway.</em> </p>
@@ -40,9 +53,10 @@
         <br>Bahiya peatampich puerto morelos, Mexico
         <br>Colornia Morelos, Mexico 775489
     </address>
+</section>
 
     <hr>
-
+<section id="third">
     <h3>Places I want to Avoid</h3>
     <dl>
         <!-- dl = description list -->
@@ -56,9 +70,13 @@
         <dd>This is Cool</dd>
     </dl>
 
+</section>
 
     <hr>
-    &lt;&lt;&lt; &copy; pk &gt;&gt;&gt;
+    &lt;&lt;&lt; &copy; To learn more about me <a href="about.html">Click Here</a>  &gt;&gt;&gt;
+
+    <p><a href="#">Back To Top</a></p>
+
 </body>
 
 </html>
